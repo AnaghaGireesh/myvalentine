@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.cat-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    gap: 20px;
+}
+
+.option {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.no-button {
+    /* Add this style to control the appearance of the "No" button */
+    background-color: #ff9999;
+}
+
+#message-container {
+    margin-top: 20px;
+}
+
+#message {
+    font-style: italic;
+    color: pink;
+    font-size: 24px;
+}

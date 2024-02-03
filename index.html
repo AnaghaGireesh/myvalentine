@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Will You Be My Valentine?</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="cat-container">
+            <img src="cat.png" alt="Cute Cat" id="cat">
+        </div>
+        <div class="options">
+            <button class="option no-button" onmouseover="moveNoButton()" onclick="chooseOption('no')">No</button>
+            <button class="option yes-button" onclick="chooseOption('yes')">Yes</button>
+        </div>
+        <div id="message-container">
+            <p id="message">Will you be my valentine?</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
